@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.placement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placement-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.placement-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: #f0f0f0;
+  margin: 0;
+}
+
+.placement-nav ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.placement-nav ul li:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.placement-content {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.faculty-coordinators table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.faculty-coordinators th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.faculty-coordinators th {
+  background-color: #333;
+  color: white;
+}
+
+.placement-footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+  transition: color 0.3s;
+}
+
+.footer-section ul li:hover {
+  color: #ffb100;
+}
